@@ -1,0 +1,3 @@
+module javaArrays {
+	exports JavaArrays;
+}
