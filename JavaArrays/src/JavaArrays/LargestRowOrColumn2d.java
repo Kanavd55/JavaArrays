@@ -1,3 +1,37 @@
+//Problem statement
+//You are given a 2D list (array) with dimensions N rows and M columns, filled with integers. Your task is to find the row or column that has the largest sum of its elements.
+//
+//Important Rules:
+//- If two or more rows/columns have the same sum, choose the one that comes first.
+//- If a row and a column have the same largest sum, choose the row.
+//Goal: Return which row or column has the largest sum.
+//
+//Detailed explanation ( Input/output format, Notes, Images )
+//Constraints:
+//1 <= t <= 10^2
+//1 <= N <= 10^3
+//1 <= M <= 10^3
+//Time Limit: 1sec
+//Sample Input 1:
+//1
+//3 2
+//6 9 
+//8 5 
+//9 2 
+//Sample Output 1:
+//column 0 23
+//Sample Input 2:
+//1
+//4 4
+//6 9 8 5 
+//9 2 4 1 
+//8 3 9 3 
+//8 7 8 6 
+//Sample Output 2:
+//column 0 31
+
+
+
 package JavaArrays;
 
 import java.util.Scanner;
